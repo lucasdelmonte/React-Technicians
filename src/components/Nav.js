@@ -18,9 +18,8 @@ export default class Nav extends Component {
 const styleNav = {
   display: 'flex',
   flexDirection: 'column',
-  width: '25%',
-  height: '100%',
   padding: '20px 20px',
+  height: '100%',
   backgroundColor: 'red',
   borderRadius: '0px 0px 0px 8px'
 };

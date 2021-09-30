@@ -23,7 +23,6 @@ const styleHeader = {
   backgroundColor: "gray",
   fontFamily: "sans-serif",
   padding: "0px 20px",
-  height: "80px",
   borderRadius: "8px 8px 0px 0px",
 };
 
