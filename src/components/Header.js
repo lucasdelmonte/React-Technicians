@@ -20,7 +20,7 @@ const styleHeader = {
   display: "flex",
   flexDirection: "row",
   justifyContent: "space-between",
-  backgroundColor: "gray",
+  backgroundColor: "#39dec2",
   padding: "0px 20px",
   borderRadius: "8px 8px 0px 0px"
 };

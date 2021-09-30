@@ -35,7 +35,9 @@ const styleTable = {
   flexDirection: 'column',
   padding: '20px 20px',
   height: '100%',
-  backgroundColor: 'white',
+  backgroundColor: '#87f5e2',
   borderRadius: '0px 0px 8px 0px',
   borderCollapse: 'collapse'
 }
+
+

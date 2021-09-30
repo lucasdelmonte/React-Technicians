@@ -1,9 +1,14 @@
+@font-face {
+  font-family: linotte-light;
+  src: url("./font/linotte-light-maisfontes.2d48/linotte-light.otf");
+}
+
 body{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: linotte-light, sans-serif, Arial;
+  background-color: white;
 }
 
 .app {
-  background-color: wheat;
   border-radius: 8px;
   margin-bottom: 30px;
 }
@@ -22,7 +27,7 @@ body{
 .nav {
   width: 25%;
   height: 100%;
-  background-color: #d5d5d5;
+  background-color: #b2f0fa;
   border-bottom-left-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -43,6 +48,7 @@ table {
 th {
   border-bottom: 5px solid rgb(196, 196, 196);
   padding: 10px;
+  font-size: 18px;
 }
 
 td {
