@@ -21,18 +21,17 @@ const styleHeader = {
   flexDirection: "row",
   justifyContent: "space-between",
   backgroundColor: "gray",
-  fontFamily: "sans-serif",
   padding: "0px 20px",
-  borderRadius: "8px 8px 0px 0px",
+  borderRadius: "8px 8px 0px 0px"
 };
 
 const styleUser = {
   fontSize: "19px",
   height: "10px",
-  padding: "0px",
+  padding: "0px"
 };
 
 const styleExit = {
   fontSize: "20px",
-  textAlign: "right",
+  textAlign: "right"
 };

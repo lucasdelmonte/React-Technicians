@@ -1,3 +1,7 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .app {
   background-color: wheat;
   border-radius: 8px;
@@ -9,7 +13,7 @@
   width: 100%;
 }
 
-.prueba {
+.contenedor {
   display: flex;
   flex-direction: row;
   height: 800px;
@@ -18,9 +22,38 @@
 .nav {
   width: 25%;
   height: 100%;
+  background-color: #d5d5d5;
+  border-bottom-left-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  font-size: 25px;
 }
 
 .table {
   width: 75%;
   height: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+th {
+  border-bottom: 5px solid rgb(196, 196, 196);
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even){
+  background-color: #b2f0fa;
+}
+
+tr:hover td{
+  background-color: #1de0ff;
 }
