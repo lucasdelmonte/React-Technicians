@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+// Estilos
 import './App.css';
 
 // Datos json
@@ -8,6 +10,7 @@ import technicians from './sample/technicians.json';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import TableTechnicians from './components/TableTechnicians';
+import FormTechnicians from './components/FormTechnicians';
 
 export default class App extends Component {
 
@@ -18,16 +21,17 @@ export default class App extends Component {
   render(){
     return (
       <div className="app">
-        <div className="header">
+        <header className="header">
           <Header />
-        </div>
+        </header>
         <div className="contenedor">
-          <div className="nav">
+          <nav className="nav">
             <Nav />
-          </div>
-          <div className="table">
+          </nav>
+          <section className="table">
             <TableTechnicians technicians={this.state.technicians}/>
-          </div>
+            <FormTechnicians />
+          </section>
         </div>
       </div>
     );

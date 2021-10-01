@@ -6,5 +6,4 @@
 {"id":6,"nombre":"Mikael","telefono":"3043221819","tipo":"A","estado":" Asignar","mantenimiento":"Mensual","correo":"mallerton5@paginegialle.it", "bool": false},
 {"id":7,"nombre":"Kristian","telefono":"6647534921","tipo":"B","estado":"Asignado","mantenimiento":"Eventual","correo":"krickaby6@com.com", "bool": false},
 {"id":8,"nombre":"Iolanthe","telefono":"4998409363","tipo":"B","estado":"Asignar","mantenimiento":"Mensual","correo":"iluety7@youku.com", "bool": false},
-{"id":9,"nombre":"Elfrida","telefono":"1564882701","tipo":"A","estado":"Asignar","mantenimiento":"Eventual","correo":"ebondesen8@eepurl.com", "bool": false},
-{"id":10,"nombre":"Sarita","telefono":"6318584322","tipo":"D","estado":"Asignar","mantenimiento":"Mensual","correo":"slepoidevin9@google.com", "bool": false}]
+{"id":9,"nombre":"Elfrida","telefono":"1564882701","tipo":"A","estado":"Asignar","mantenimiento":"Eventual","correo":"ebondesen8@eepurl.com", "bool": false}]
