@@ -21,11 +21,12 @@ export default class App extends Component {
   addTechnician = (name, telephone, type, state, maintenance) => {
     const newTechnician = {
       id: this.state.technicians.length + 1,
-      name: name,
-      telephone: telephone,
-      type: type,
-      state: state,
-      maintenance: maintenance
+      nombre: name,
+      telefono: telephone,
+      tipo: type,
+      estado: state,
+      mantenimiento: maintenance,
+      bool: false
     }
     console.log(newTechnician); // Bien
     this.setState({
@@ -36,6 +37,18 @@ export default class App extends Component {
   deleteTechnician = (id) => {
     const newTechnician = this.state.technicians.filter(technician => technician.id !== id);
     this.setState({technicians : newTechnician});
+  }
+
+  updateTechnician = (id) => {
+    const newTechnician = this.state.technicians.map(technician => {
+      if (technician.id === id) {
+        technician.bool = !technician.bool
+      }
+      console.log('Prueba');
+      return technician;
+    });
+    
+    this.setState({technicians: newTechnician});
   }
 
   render(){
@@ -49,8 +62,8 @@ export default class App extends Component {
             <Nav />
           </nav>
           <section className="table">
-            <TableTechnicians technicians={this.state.technicians} deleteTechnician={this.deleteTechnician}/>
-            <FormTechnicians addTechnician={this.addTechnician}/>
+            <TableTechnicians technicians={this.state.technicians} deleteTechnician={this.deleteTechnician} updateTechnician={this.updateTechnician} />
+            <FormTechnicians addTechnician={this.addTechnician} />
           </section>
         </div>
       </div>

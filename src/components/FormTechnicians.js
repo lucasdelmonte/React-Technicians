@@ -69,7 +69,7 @@ export default class TableTechnicians extends Component {
                 id="maintenance" 
                 onChange={this.onChange} 
                 value={this.state.maintenance} />
-            <input type="submit" value="Guardar" />
+            <input type="submit" value="Guardar"/>
         </form>
     }
 }

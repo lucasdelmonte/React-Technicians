@@ -21,6 +21,7 @@ export default class TableTechnicians extends Component {
                 technician={technician}
                 key={technician.id}
                 deleteTechnician={this.props.deleteTechnician}
+                updateTechnician={this.props.updateTechnician}
               />
           )}
       </table>
