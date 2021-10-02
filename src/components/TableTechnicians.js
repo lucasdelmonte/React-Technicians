@@ -7,7 +7,7 @@ export default class TableTechnicians extends Component {
   render() {
     return <div style={styleTable}>
       <table>
-        <tr>
+        <tr> 
           <th >Id</th>
           <th>Nombre</th>
           <th>Teléfono</th>
@@ -17,7 +17,11 @@ export default class TableTechnicians extends Component {
           <th>Opciones</th>
         </tr>
           {this.props.technicians.map( technician =>
-              <Technician technician={technician} key={technician.id}/>
+              <Technician 
+                technician={technician}
+                key={technician.id}
+                deleteTechnician={this.props.deleteTechnician}
+              />
           )}
       </table>
     </div>

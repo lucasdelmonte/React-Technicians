@@ -9,7 +9,7 @@ export default class Technician extends Component {
                 <td>{this.props.technician.tipo}</td>
                 <td>{this.props.technician.estado}</td>
                 <td>{this.props.technician.mantenimiento}</td>
-                <td><button className="styleEdit"><i class="fas fa-edit"></i></button><button className="styleTrash"><i class="fas fa-trash"></i></button></td>
+                <td><button className="styleEdit"><i class="fas fa-edit"></i></button><button className="styleTrash" onClick={this.props.deleteTechnician.bind(this, this.props.technician.id)}><i class="fas fa-trash"></i></button></td>
         </tr>
     }
 }

@@ -5,11 +5,11 @@ export default class Header extends Component {
     return (
       <div style={styleHeader}>
         <div>
-          <h2>CaldAR</h2>
+          <h2 style={styleTitle}>CaldAR</h2>
         </div>
         <div>
-          <p style={styleUser}>Usuario Marcos23</p>
-          <p style={styleExit}>Salir</p>
+          <p style={styleUser}>Usuario: Marcos23</p>
+          <p style={styleExit}>Cerrar Sesión</p>
         </div>
       </div>
     );
@@ -24,6 +24,10 @@ const styleHeader = {
   padding: "0px 20px",
   borderRadius: "8px 8px 0px 0px"
 };
+
+const styleTitle = {
+  fontSize:'30px'
+}
 
 const styleUser = {
   fontSize: "19px",
